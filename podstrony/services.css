@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #484444;
+}
+.header{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    max-width: 600px;
+    background-color: #484444;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    height: 10vh;
+    margin:0 auto;
+
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header img{
+    height: 50px;
+    width: 50px;
+}
