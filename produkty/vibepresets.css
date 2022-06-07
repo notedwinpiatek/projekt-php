@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+}
+body {
+    background-color: black;
+    height: 90vh;
+    bottom: 0px;
+}
+/*----------HEADER------------*/
+.header {
+    height: 10vh;
+    background-color: #484444;
+    font-size: 1em;
+    box-shadow: 0px 0px 50px black;
+    position: fixed;
+    width: 100vw;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    z-index: 2147483647;
+}
+.headtext {
+    width: 110px;
+    text-align: center;
+    display: inline;
+}
+.headimg{
+    height: 60px;
+    width: 60px;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+}
+.header a:hover {
+    color: #fff900;
+}
+.header a:active{
+    color: black;
+}
+/*-----------PRODUCT--------------*/
+.product {
+    padding-top: 85px;
+    display: flex;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    justify-content: space-evenly;
+    max-height: 90vh;
+}
+.prodimg{
+    background: url('/img/vibepresets.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 541px;
+    height: 541px;
+    border: 3px solid red;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.prodtext {
+    padding-left: 15px;
+    width: 500px;
+    letter-spacing: 0.5px;
+    margin:  0 auto;
+}
+.prodtext h1{
+    line-height: 40px;
+}
+.prodtext .desc{
+    line-height: 25px;
+}

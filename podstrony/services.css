@@ -55,6 +55,9 @@ body {
     width: 250px;
     height: 250px;
 }
+.item img:hover {
+    
+}
 /* ----------------footer---------------------------*/
 .bottom{
     display: flex;
