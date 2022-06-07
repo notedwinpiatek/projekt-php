@@ -62,16 +62,27 @@ body {
 }
 .flexwspodnie{
     flex-direction: column;
-    width: 400px;
+    width: 50%;
+}
+.flexwspodnie2{
+    flex-direction: column;
+    width: 50%;
 }
 .aboutservices {
     text-align: center;
+    display: flex;
+    width: 400px;
 }
 .podtalk {
-    margin-right: 15px;
     background: url('/img/PodTalk.png');
     background-size: cover;
-    width: 50vw;
+    width: 50%;
+    height: 500px;
+}
+.cocknut {
+    background: url('/img/PodTalk.png');
+    background-size: cover;
+    width: 50%;
     height: 500px;
 }
 .buttonservices {
@@ -103,7 +114,17 @@ body {
     display: flex;
     justify-content: center;
 }
-
+.newsletter {
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+.newsletter h3{
+    font-size: 1.5em;
+}
+.input {
+    padding: 2px;
+}
 .nawigacja {
     display: flex;
     flex-direction: column;
