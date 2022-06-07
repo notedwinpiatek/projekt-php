@@ -41,3 +41,51 @@ body {
 .header a:active{
     color: black;
 }
+/*------------shop---------*/
+.shop {
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+.item {
+    cursor: pointer;
+    text-align: center;
+}
+.item  img{
+    width: 250px;
+    height: 250px;
+}
+/* ----------------footer---------------------------*/
+.bottom{
+    display: flex;
+    justify-content: center;
+}
+.newsletter {
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: white;
+}
+.newsletter h3{
+    font-size: 1.5em;
+}
+.input {
+    padding: 2px;
+}
+.nawigacja {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 15px;
+}
+.nawigacja a{
+    color: white;
+    text-decoration: underline;
+}
+.nawigacja a:hover {
+    color: #fff900;
+}
+.nawigacja a:active{
+    color: black;
+}
