@@ -43,11 +43,32 @@ body {
 }
 /*-----------PRODUCT--------------*/
 .product {
-    padding-top: 80px;
+    padding-top: 85px;
     display: flex;
-    padding-left: 150px;
-    padding-right: 150px;
+    /* margin-left: 150px;
+    margin-right: 150px; */
+    justify-content: space-evenly;
+    max-height: 90vh;
 }
-.prodimg img{
-    
+.prodimg{
+    background: url('/img/vibepresets.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 541px;
+    height: 541px;
+    border: 3px solid red;
+    border-radius: 3px;
+    margin: 0 auto;
+}
+.prodtext {
+    padding-left: 15px;
+    width: 500px;
+    letter-spacing: 0.5px;
+    margin:  0 auto;
+}
+.prodtext h1{
+    line-height: 40px;
+}
+.prodtext .desc{
+    line-height: 25px;
 }
