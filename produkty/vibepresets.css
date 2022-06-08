@@ -59,25 +59,6 @@ body {
     letter-spacing: 0.5px;
     margin:  0 auto;
 }
-.buybutton a{
-    padding: 12px 20px 12px 20px;
-    background-color: #484444;
-    color: #fff900;
-    border-radius: 20px;
-    border: 3px solid #fff900;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.25em;
-    max-width: 150px;
-}
-.buybutton a:hover{
-    background-color: #fff900;
-    border: #fff900 3px solid;
-    color: black;
-}
-.buybutton a:active{
-    border: 3px solid #484444;
-}
 /* --------------BOTTOM-----------------------------*/
 .bottom{
     display: flex;
@@ -115,4 +96,13 @@ body {
 .nawigacja a:active{
     color: black;
     text-decoration: none;
+}
+/* checkout --------------------- */
+.checkout{
+    width: 300px;
+    line-height: 30px;
+}
+.checkout input{
+    color: black;
+    
 }
