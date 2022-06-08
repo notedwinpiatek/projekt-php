@@ -41,42 +41,9 @@ body {
 .header a:active{
     color: black;
 }
-/*-----------PRODUCT--------------*/
-.product {
-    padding-top: 85px;
-    display: flex;
-    margin-left: 150px;
-    margin-right: 150px;
-    justify-content: space-evenly;
-    max-height: 90vh;
-}
-.prodimg img{
-    width: 100%;
-}
-.prodtext {
-    padding-left: 15px;
-    width: 500px;
-    letter-spacing: 0.5px;
-    margin:  0 auto;
-}
-.buybutton a{
-    padding: 12px 20px 12px 20px;
-    background-color: #484444;
-    color: #fff900;
-    border-radius: 20px;
-    border: 3px solid #fff900;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.25em;
-    max-width: 150px;
-}
-.buybutton a:hover{
-    background-color: #fff900;
-    border: #fff900 3px solid;
-    color: black;
-}
-.buybutton a:active{
-    border: 3px solid #484444;
+/* ---------CHECKOUT------------ */
+.checkout {
+    padding-top:  85px;
 }
 /* --------------BOTTOM-----------------------------*/
 .bottom{
